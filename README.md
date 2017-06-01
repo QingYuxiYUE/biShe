@@ -1,34 +1,10 @@
-# vue2.0-demo
-> A simple Vue.js project
+# wanghao
 
-![demo](http://huzerui.com/vue2.0-demo/statics/img/readme/desc-1.gif)
+> A Vue.js project
 
-## Scanning Qrcode 
-![qrcode](http://huzerui.com/vue2.0-demo/statics/img/readme/qrcode.png)
-
-View the demo in your mobilephone by scanning the qrcode above.
-
-## Plugin of production
--  vue-material:  A material css ui framework
--  vue-router: Official router plugin
--  axios:  A http request plugin
-
-## Plugin of production
-Please check package.json profile
-
-## View in Online Address
-[http://huzerui.com/vue2.0-demo/](http://huzerui.com/vue2.0-demo/)
-You'd better open it in mobile mode of browser or just view in your mobilephone
-
-## View in local
+## Build Setup
 
 ``` bash
-# clone project from github to your computer
-git clone https://github.com/alex1504/vue2.0-demo.git
-
-# enter into project directory
-cd vue2.0-demo
-
 # install dependencies
 npm install
 
@@ -37,7 +13,9 @@ npm run dev
 
 # build for production with minification
 npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
